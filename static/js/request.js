@@ -36,6 +36,8 @@ function formatTime(time){
 }
 
 function fillTable(){
+    $("#request").fadeOut();
+    $("#out").fadeOut();
     $("#results_table").fadeIn();
     sortedArr(resultsArr).forEach(el => {el.time = formatTime(el.time); appendRow(el)})
 }
