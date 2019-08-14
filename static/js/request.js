@@ -52,5 +52,5 @@ function addData(response){
 function getResults(){
     sendRequest()
         .then( (response) => addData(response),
-               (err) =>  console.log(err.result.error) )
+               (err) =>  out.innerText = err.result.error.message )
 }
