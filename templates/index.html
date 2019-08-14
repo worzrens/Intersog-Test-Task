@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Test Task</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row" style="margin-top: 30%">
+            <button class="btn btn-lg btn-outline-danger mx-auto" id="auth" onclick="OAuth()">Authorize</button>
+            <button class="btn btn-lg btn-info mx-auto" id="request" onclick="getResults()" style="display:none">Request data</button>
+        </div>
+        <div class="row">
+            <table class="table mx-auto" id="results_table" style="display: none">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Published At</th>
+    </tr>
+  </thead>
+  <tbody id="results">
+  </tbody>
+</table>
+        </div>
+    </div>
+  </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+
+<script src="/static/js/OAuth.js"></script>
+<script src="/static/js/request.js"></script>
+</html>
+
+
+
+
+
+
