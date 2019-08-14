@@ -1,5 +1,5 @@
 API_KEY = "AIzaSyDKHmG_iim8s1FRpgUxlG5JYtIH4R-8wSo";
-CLIENT_ID = "138029415830-13pnjkeu8bs2536vhj3t1n1ngvsil6i5.apps.googleusercontent.com"
+CLIENT_ID = "138029415830-9g9nvgmcmstcbs1ucjb7lupv3v4vftu4.apps.googleusercontent.com"
 
 
 
