@@ -2,3 +2,8 @@
     position: absolute;
     bottom: 6%;
 }
+
+.footer-text {
+    width: 100%;
+    text-align: center;
+}
